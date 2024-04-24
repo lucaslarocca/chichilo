@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La cantina de Chichilo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        
+        header {
+            background-color: green;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+    
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .platos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .plato {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: calc(33.33% - 20px);
+        }
+        
+        .plato img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            width: 100%;
+
+        }
+        
+        .plato h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .galeria {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.seccion {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.clientes img,
+.lugar img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+}
+
+.informacion-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.informacion-contacto h2 {
+    margin-top: 10;
+}
+
+.informacion-contacto p {
+    margin: 10px 0;
+    display: block;
+    
+}
+
+        
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 2px ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La cantina de Chichilo</h1>
+    </header>
+
+    <div class="container">
+        <h2>Algunos de nuestros platos</h2>
+        <div class="platos">
+            <div class="plato">
+                <img src="Mondongo.jpg" alt="Mondongo a la italiana">
+                <h2>Mondongo a la italiana</h2>
+                <p>Precio: $10.000</p>
+            </div>
+            <div class="plato">
+                <img src="Rinon.jpg" alt="Riñones al vino blanco">
+                <h2>Riñones al vino blanco</h2>
+                <p>Precio: $12.000</p>
+            </div>
+            <div class="plato">
+                <img src="Calamarettis.jpg" alt="Calamarettis a la escarpetta">
+                <h2>Calamarettis a la escarpetta</h2>
+                <p>Precio: $20.000</p>
+            </div>
+        </div>
+    </div>
+    <div class="galeria">
+        <div class="seccion">
+            <h2>Sobre nosotros</h2>
+            <div class="clientes">
+                <img src="Cliente 1.jpg" alt="Clientes">
+            </div>
+        </div>
+        
+        <div class="seccion">
+            <h2>El establecimiento</h2>
+            <div class="lugar">
+                <img src="Lugar 1.jpg" alt="Lugar">
+            </div>
+        </div>
+    </div>
+    <div class="informacion-contacto">
+        <h2>Información de Contacto</h2>
+        <p>CANTINA ITALIANA CHICHILO DE BUENOS AIRES</p>
+        <p>CAMARONES 1901 ESQUINA TERRERO 2006</p>
+        <p>(1416) CAPITAL FEDERAL - REPUBLICA ARGENTINA</p>
+        <p>FONO-011-4581-1984</p>
+        <p>E-MAIL: chichilo3554@hotmail.com</p>
+        <p>ABIERTO DE JUEVES A SABADOS DE NOCHE - SABADOS Y DOMINGOS ALMUERZOS</p>
+    </div>
+    
+    <footer>
+        <p>&copy; La cantina de Chichilo </p>
+    </footer>
+
+</body>
+</html>
